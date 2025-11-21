@@ -41,9 +41,9 @@ jobs:
                 file: ./02-encontros-tech/Dockerfile
                 context: ./02-encontros-tech
 
-    CD-homolog:
+    CD-homologacao:
         runs-on: ubuntu-latest
-        environment: homolog
+        environment: homologacao
         needs: [CI]
         steps:
             - name: Checkout
