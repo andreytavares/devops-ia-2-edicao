@@ -106,6 +106,6 @@ jobs:
                 manifests: |
                   02-encontros-tech/k8s/manifests.yaml
                 images: |
-                  fabricioveronez/bootcamp-encontros-tech:v${{ github.run_number }}
+                  andr3ytavares/encontros-tech:v${{ github.run_number }}
                 strategy: basic
                 
